@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <string>
+#include "audio_unit.h"
 using namespace std;
 
 // void string_bytes_to_int(int *, char *);
@@ -110,6 +110,8 @@ int main()
 	cout << dlengthint << endl;
 
 	cout << "Time to decode some audio" << endl;
+
+	AudioUnit au;	
 
 	infile.close();	
 }
